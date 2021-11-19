@@ -1,0 +1,15 @@
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\vehicles.exe
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\vehicles.deps.json
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\vehicles.runtimeconfig.json
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\vehicles.dll
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\ref\vehicles.dll
+F:\Vids\challenges\vehicles\vehicles\bin\Debug\net6.0\vehicles.pdb
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.csproj.AssemblyReference.cache
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.GeneratedMSBuildEditorConfig.editorconfig
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.AssemblyInfoInputs.cache
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.AssemblyInfo.cs
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.csproj.CoreCompileInputs.cache
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.dll
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\ref\vehicles.dll
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.pdb
+F:\Vids\challenges\vehicles\vehicles\obj\Debug\net6.0\vehicles.genruntimeconfig.cache
