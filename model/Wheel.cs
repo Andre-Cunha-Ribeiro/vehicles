@@ -1,6 +1,7 @@
 using System.Xml;
 using System.Xml.Serialization;
 
+[XmlType("wheel")]
 public class Wheel
 {
     [XmlAttribute(AttributeName = "size")]

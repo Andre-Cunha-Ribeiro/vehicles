@@ -7,9 +7,18 @@ public class Motor
 
     [XmlElement(ElementName = "power")]
     public Power? Power { get; set; }
+
+    [XmlElement(ElementName = "displacement")]
+    public Displacement? Displacement { get; set; }
 }
 
 public class Power
+{
+    [XmlText]
+    public int Value { get; set; }
+}
+
+public class Displacement
 {
     [XmlText]
     public int Value { get; set; }

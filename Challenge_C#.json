@@ -1,0 +1,212 @@
+{
+  "Vehicles": [
+    {
+      "Id": "f86e6174-f2d4-406b-8c6e-0f46866edfd9",
+      "type": "bicycle",
+      "color": null,
+      "motor": {
+        "Type": "electric",
+        "Power": {
+          "Value": 2
+        },
+        "Displacement": null
+      },
+      "Wheels": [
+        {
+          "Size": 29,
+          "Pressure": 30
+        },
+        {
+          "Size": 29,
+          "Pressure": 28
+        }
+      ]
+    },
+    {
+      "Id": "6adf4a53-daea-473d-844c-43a95711d939",
+      "type": "car",
+      "color": null,
+      "motor": {
+        "Type": "internal-combustion",
+        "Power": {
+          "Value": 150
+        },
+        "Displacement": null
+      },
+      "Wheels": [
+        {
+          "Size": 17,
+          "Pressure": 40
+        },
+        {
+          "Size": 17,
+          "Pressure": 40
+        },
+        {
+          "Size": 17,
+          "Pressure": 41
+        },
+        {
+          "Size": 17,
+          "Pressure": 41
+        }
+      ]
+    },
+    {
+      "Id": "f7fa576f-0d4c-4671-9f60-07c4f472272e",
+      "type": "bicycle",
+      "color": null,
+      "motor": null,
+      "Wheels": [
+        {
+          "Size": 27,
+          "Pressure": 30
+        },
+        {
+          "Size": 27,
+          "Pressure": 28
+        }
+      ]
+    },
+    {
+      "Id": "bab5c52d-2bc3-4d6e-82c8-4483acfafa42",
+      "type": "truck",
+      "color": null,
+      "motor": {
+        "Type": "internal-combustion",
+        "Power": {
+          "Value": 300
+        },
+        "Displacement": {
+          "Value": 3000
+        }
+      },
+      "Wheels": [
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        }
+      ]
+    },
+    {
+      "Id": "1d82b8bb-f34d-414e-8bad-d4fd3acd3601",
+      "type": "bicycle",
+      "color": null,
+      "motor": null,
+      "Wheels": [
+        {
+          "Size": 14,
+          "Pressure": 50
+        },
+        {
+          "Size": 14,
+          "Pressure": 50
+        }
+      ]
+    },
+    {
+      "Id": "1d216567-057c-48e3-9762-6c8664415ac9",
+      "type": "car",
+      "color": "red",
+      "motor": {
+        "Type": "hybrid",
+        "Power": {
+          "Value": 200
+        },
+        "Displacement": null
+      },
+      "Wheels": [
+        {
+          "Size": 19,
+          "Pressure": 42
+        },
+        {
+          "Size": 19,
+          "Pressure": 42
+        },
+        {
+          "Size": 19,
+          "Pressure": 44
+        },
+        {
+          "Size": 19,
+          "Pressure": 44
+        }
+      ]
+    },
+    {
+      "Id": "28c3b90c-d655-4642-836c-e35a3267cc31",
+      "type": "truck",
+      "color": null,
+      "motor": {
+        "Type": "internal-combustion",
+        "Power": null,
+        "Displacement": {
+          "Value": 3000
+        }
+      },
+      "Wheels": [
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 42
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        },
+        {
+          "Size": 20,
+          "Pressure": 44
+        }
+      ]
+    }
+  ]
+}
