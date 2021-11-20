@@ -1,21 +1,20 @@
 using System.Text.Json;
 public class DataManager
 {
-    public IDataWriter writer;
-
-    public IDataReader reader;
+    private const string WRITER_PATH = @"Challenge_C#.json";
+    private const string READER_PATH = @"Challenge_C#.xml";
+    public DataManagerFacade dataManager {get;}
 
     public DataManager(){
-        this.writer = new JsonWriterImp();
-        this.reader = new XmlReaderImp();
+        dataManager = new DataManagerFacade(new JsonWriterImp(WRITER_PATH), new XmlReaderImp(READER_PATH));
     }
 
     public void writeData(VehicleList list){
-        writer.writeData(list);
+        dataManager.writeData(list);
     } 
 
     public VehicleList readData(){
-        return reader.readData();
+        return dataManager.readData();
     }
 
 }

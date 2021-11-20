@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System;
-using System.IO;
-using System.Xml.Serialization;
-using System.Text.Json;
-
-
-namespace VEHICLES
+﻿namespace VEHICLES
 {
     public class Program
     {
@@ -20,9 +11,12 @@ namespace VEHICLES
             var list = manager.readData();
 
             var bicycle = list.Vehicles.Where(x => x.type == "bicycle" && x.Wheels != null && x.Wheels.All(y => y.Size == 14)).First();
-            foreach (var wheel in bicycle.Wheels)
+            if (bicycle.Wheels != null)
             {
-                wheel.Pressure = 50;
+                foreach (var wheel in bicycle.Wheels)
+                {
+                    wheel.Pressure = 50;
+                }
             }
 
             var trucks = list.Vehicles.Where(x => x.type == "truck");

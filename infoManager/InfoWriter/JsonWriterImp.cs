@@ -1,10 +1,14 @@
 using System.Text.Json;
 public class JsonWriterImp : IDataWriter
 {
+    private string filePath;
     public void writeData(VehicleList list)
     {
-        string fileName = @"Challenge_C#.json";
         string jsonString = JsonSerializer.Serialize(list, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(fileName, jsonString);
+        File.WriteAllText(filePath, jsonString);
+    }
+
+    public JsonWriterImp(string path){
+        filePath = path;
     }
 }

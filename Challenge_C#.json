@@ -1,7 +1,7 @@
 {
   "Vehicles": [
     {
-      "Id": "f86e6174-f2d4-406b-8c6e-0f46866edfd9",
+      "Id": "cd883203-b395-460d-95bf-4bbce534810e",
       "type": "bicycle",
       "color": null,
       "motor": {
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "Id": "6adf4a53-daea-473d-844c-43a95711d939",
+      "Id": "2b84976e-c806-4e77-8f56-8f90193def7b",
       "type": "car",
       "color": null,
       "motor": {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "Id": "f7fa576f-0d4c-4671-9f60-07c4f472272e",
+      "Id": "e1c9bca0-d366-48e3-bee9-6bc40fb01b17",
       "type": "bicycle",
       "color": null,
       "motor": null,
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "Id": "bab5c52d-2bc3-4d6e-82c8-4483acfafa42",
+      "Id": "be5b3b54-ee39-49b0-b4a9-5f81b7191952",
       "type": "truck",
       "color": null,
       "motor": {
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "Id": "1d82b8bb-f34d-414e-8bad-d4fd3acd3601",
+      "Id": "09773bce-9459-486d-b019-0d1213cd0e26",
       "type": "bicycle",
       "color": null,
       "motor": null,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "Id": "1d216567-057c-48e3-9762-6c8664415ac9",
+      "Id": "80e94b55-8045-4107-8832-9adc3355ce5d",
       "type": "car",
       "color": "red",
       "motor": {
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "Id": "28c3b90c-d655-4642-836c-e35a3267cc31",
+      "Id": "826ffb50-6636-4b35-82da-f785d56716fa",
       "type": "truck",
       "color": null,
       "motor": {

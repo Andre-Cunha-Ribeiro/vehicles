@@ -17,7 +17,7 @@ public class Vehicle
 
     [XmlArray("wheels")]
     [XmlArrayItem("wheel")] 
-    public Wheel[] Wheels { get; set; }
+    public Wheel[]? Wheels { get; set; }
 
     public Vehicle(){
         Id = Guid.NewGuid().ToString(); 

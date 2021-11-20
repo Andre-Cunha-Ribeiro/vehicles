@@ -3,20 +3,28 @@ using System.IO;
 using System.Xml.Serialization;
 public class XmlReaderImp : IDataReader
 {
-    public VehicleList readData(){
+    private string filePath;
+
+    public VehicleList readData()
+    {
         VehicleList? data = getInfoFromFile();
-        if(data == null){
+        if (data == null)
+        {
             throw new NullReferenceException();
         }
         return data;
     }
 
-    private static VehicleList? getInfoFromFile()
+    private VehicleList? getInfoFromFile()
+    {
+        using (TextReader reader = new StreamReader(filePath))
         {
-            using (TextReader reader = new StreamReader(@"Challenge_C#.xml"))
-            {
-                XmlSerializer serializer = new XmlSerializer(typeof(VehicleList));
-                return (VehicleList?)serializer.Deserialize(reader);
-            }
+            XmlSerializer serializer = new XmlSerializer(typeof(VehicleList));
+            return (VehicleList?)serializer.Deserialize(reader);
         }
+    }
+
+    public XmlReaderImp(String path){
+        this.filePath = path;
+    }
 }
