@@ -16,11 +16,12 @@ public class Vehicle
     public Motor? Motor { get; set; }
 
     [XmlArray("wheels")]
-    [XmlArrayItem("wheel")] 
+    [XmlArrayItem("wheel")]
     public Wheel[]? Wheels { get; set; }
 
-    public Vehicle(){
-        Id = Guid.NewGuid().ToString(); 
+    public Vehicle()
+    {
+        Id = Guid.NewGuid().ToString();
     }
 }
 
@@ -30,7 +31,8 @@ public class VehicleList
     [XmlElement(ElementName = "vehicle")]
     public List<Vehicle> Vehicles { get; set; }
 
-    public VehicleList(){
+    public VehicleList()
+    {
         Vehicles = new List<Vehicle>();
     }
 }

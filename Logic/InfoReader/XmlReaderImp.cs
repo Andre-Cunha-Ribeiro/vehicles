@@ -24,7 +24,8 @@ public class XmlReaderImp : IDataReader
         }
     }
 
-    public XmlReaderImp(String path){
+    public XmlReaderImp(String path)
+    {
         this._filePath = path;
     }
 }

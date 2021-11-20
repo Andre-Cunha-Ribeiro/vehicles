@@ -8,7 +8,8 @@ public class JsonWriterImp : IDataWriter
         File.WriteAllText(_filePath, jsonString);
     }
 
-    public JsonWriterImp(string path){
+    public JsonWriterImp(string path)
+    {
         _filePath = path;
     }
 }
