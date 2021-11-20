@@ -1,4 +1,4 @@
 public interface IDataReader
 {
-    VehicleList readData();
+    VehicleList ReadData();
 }

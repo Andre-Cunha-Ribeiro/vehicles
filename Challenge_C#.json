@@ -1,10 +1,10 @@
 {
   "Vehicles": [
     {
-      "Id": "cd883203-b395-460d-95bf-4bbce534810e",
-      "type": "bicycle",
-      "color": null,
-      "motor": {
+      "Id": "7c678f1c-cf43-4fb1-9954-8a8e59461ea5",
+      "Type": "bicycle",
+      "Color": null,
+      "Motor": {
         "Type": "electric",
         "Power": {
           "Value": 2
@@ -23,10 +23,10 @@
       ]
     },
     {
-      "Id": "2b84976e-c806-4e77-8f56-8f90193def7b",
-      "type": "car",
-      "color": null,
-      "motor": {
+      "Id": "3d07acc3-0cfe-4b5b-aaf9-947c21d40144",
+      "Type": "car",
+      "Color": null,
+      "Motor": {
         "Type": "internal-combustion",
         "Power": {
           "Value": 150
@@ -53,10 +53,10 @@
       ]
     },
     {
-      "Id": "e1c9bca0-d366-48e3-bee9-6bc40fb01b17",
-      "type": "bicycle",
-      "color": null,
-      "motor": null,
+      "Id": "c66c3550-4494-42de-9fc9-8bab354c841b",
+      "Type": "bicycle",
+      "Color": null,
+      "Motor": null,
       "Wheels": [
         {
           "Size": 27,
@@ -69,10 +69,10 @@
       ]
     },
     {
-      "Id": "be5b3b54-ee39-49b0-b4a9-5f81b7191952",
-      "type": "truck",
-      "color": null,
-      "motor": {
+      "Id": "81e8211f-359b-4f35-9a9d-eaf8ee623a0b",
+      "Type": "truck",
+      "Color": null,
+      "Motor": {
         "Type": "internal-combustion",
         "Power": {
           "Value": 300
@@ -117,10 +117,10 @@
       ]
     },
     {
-      "Id": "09773bce-9459-486d-b019-0d1213cd0e26",
-      "type": "bicycle",
-      "color": null,
-      "motor": null,
+      "Id": "70390379-2c98-4812-8378-baf2a8d26218",
+      "Type": "bicycle",
+      "Color": null,
+      "Motor": null,
       "Wheels": [
         {
           "Size": 14,
@@ -133,10 +133,10 @@
       ]
     },
     {
-      "Id": "80e94b55-8045-4107-8832-9adc3355ce5d",
-      "type": "car",
-      "color": "red",
-      "motor": {
+      "Id": "26945cc7-cdce-4b29-99d9-c05b5ce8d6f1",
+      "Type": "car",
+      "Color": "red",
+      "Motor": {
         "Type": "hybrid",
         "Power": {
           "Value": 200
@@ -163,10 +163,10 @@
       ]
     },
     {
-      "Id": "826ffb50-6636-4b35-82da-f785d56716fa",
-      "type": "truck",
-      "color": null,
-      "motor": {
+      "Id": "ee5cbe67-8d8b-42cf-8891-f439eaa76d40",
+      "Type": "truck",
+      "Color": null,
+      "Motor": {
         "Type": "internal-combustion",
         "Power": null,
         "Displacement": {

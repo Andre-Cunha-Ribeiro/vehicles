@@ -6,14 +6,14 @@ public class Vehicle
     [XmlIgnore]
     public string Id { get; }
 
-    [XmlAttribute]
-    public string? type { get; set; }
+    [XmlAttribute(AttributeName = "type")]
+    public string? Type { get; set; }
 
     [XmlElement(ElementName = "color")]
-    public string? color { get; set; }
+    public string? Color { get; set; }
 
     [XmlElement(ElementName = "motor")]
-    public Motor? motor { get; set; }
+    public Motor? Motor { get; set; }
 
     [XmlArray("wheels")]
     [XmlArrayItem("wheel")] 

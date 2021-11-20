@@ -1,14 +1,14 @@
 using System.Text.Json;
 public class JsonWriterImp : IDataWriter
 {
-    private string filePath;
-    public void writeData(VehicleList list)
+    private string _filePath;
+    public void WriteData(VehicleList list)
     {
         string jsonString = JsonSerializer.Serialize(list, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(filePath, jsonString);
+        File.WriteAllText(_filePath, jsonString);
     }
 
     public JsonWriterImp(string path){
-        filePath = path;
+        _filePath = path;
     }
 }

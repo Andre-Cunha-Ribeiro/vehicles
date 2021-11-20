@@ -3,11 +3,11 @@ using System.IO;
 using System.Xml.Serialization;
 public class XmlReaderImp : IDataReader
 {
-    private string filePath;
+    private string _filePath;
 
-    public VehicleList readData()
+    public VehicleList ReadData()
     {
-        VehicleList? data = getInfoFromFile();
+        VehicleList? data = GetInfoFromFile();
         if (data == null)
         {
             throw new NullReferenceException();
@@ -15,9 +15,9 @@ public class XmlReaderImp : IDataReader
         return data;
     }
 
-    private VehicleList? getInfoFromFile()
+    private VehicleList? GetInfoFromFile()
     {
-        using (TextReader reader = new StreamReader(filePath))
+        using (TextReader reader = new StreamReader(_filePath))
         {
             XmlSerializer serializer = new XmlSerializer(typeof(VehicleList));
             return (VehicleList?)serializer.Deserialize(reader);
@@ -25,6 +25,6 @@ public class XmlReaderImp : IDataReader
     }
 
     public XmlReaderImp(String path){
-        this.filePath = path;
+        this._filePath = path;
     }
 }
