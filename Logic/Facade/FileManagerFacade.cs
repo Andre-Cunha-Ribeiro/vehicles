@@ -1,7 +1,7 @@
 public class FileManagerFacade : IFileManagerFacade
 {
-    public IDataWriter writer;
-    public IDataReader reader;
+    private IDataWriter writer;
+    private IDataReader reader;
 
     public FileManagerFacade(IDataWriter writer, IDataReader reader){
         this.writer = writer;

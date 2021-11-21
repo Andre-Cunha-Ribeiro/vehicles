@@ -13,7 +13,7 @@ public class Vehicle
     public string? Color { get; set; }
 
     [XmlElement(ElementName = "motor")]
-    public Motor? Motor { get; set; }
+    public Engine? Motor { get; set; }
 
     [XmlArray("wheels")]
     [XmlArrayItem("wheel")]
